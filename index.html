@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Mailchimp</title>
+</head>
+<body>
+    <div class="contenedor ">
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="form">
+            <h1>Welcome to Mailchimp</h1>
+            <p>Find your people. Engage your customers. Build your brand. Do it all with Mailchimp's Marketing Platform. Already have an account? <a class="text" href="https://login.mailchimp.com/">Log in</a></p>
+            <form action="">
+                <!-- <fieldset>
+                    <legend>Formulario</legend>-->
+
+                    <label for="Email" class="text">Email</label>
+                    <input class="box_send margin_box" type="email" name="email" id="email" required >
+
+                    <label for="username" class="text">Username</label>
+                    <input class="box_send margin_box" type="text" name="usename" id="username" required>
+
+                    <div>
+                        <div>
+                            <div class="passwordShow">
+                                <div class="passwordShow">
+                                    <span><label for="password" class="text">Password</label></span>
+                                </div>
+                                <div class="iconView_placement">
+                                    <img class="iconView" src="./img/iconView.png">
+                                    <div>
+                                    
+                                        <span class="text show_position"><p>Show</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                        <input class="box_send" type="password" name="password" id="password" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$
+                        ">
+                    </div>
+                    
+
+                    <div class="pass_checker_row">
+                        <ul class="circle">
+                            <li><span>One lowercase character</span> </li>
+                            <li><span>One uppercase character</span></li>
+                            <li><span>One number</span></li>
+                        </ul>
+                        <ul class="circle margen">
+                            <li><span>One special character</span></li>
+                            <li><span>8 characters minimum</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="signup">
+                        <div>
+                            <button class="button_design" type="submit">Sign Up</button>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="check" id="check">
+                            <label for="check">I don't want to receive emails about new Mailchimp products, best practices, or special offers.</label>
+                        </div>
+                        
+                    </div>
+               <!-- </fieldset>  -->
+            
+
+                <p>By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>.</p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

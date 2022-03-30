@@ -1,0 +1,133 @@
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    font-family: "Arial","Verdana","sans-serif";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+
+.contenedor{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+    width: 50rem;
+    /* box-shadow: 2px 2px 10px #666; */
+ 
+}
+
+
+.logo{
+    padding-right: 3rem;
+    padding-top: 3rem;
+}
+
+
+
+.box_send{
+   align-content:flex-end;
+   width:100%;
+   height: 2rem;
+   margin-bottom: 2rem;
+}
+
+.text{
+    font-weight: bold;
+    
+}
+
+.show_position{
+    color: rgb(54, 99, 233);
+}
+
+.signup{
+    display: flex;
+    flex-direction: row;
+}
+
+.button_design{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #323536;
+    background: transparent;
+    padding: 10px 5rem;
+    margin-right: 3rem;
+    
+}
+
+.pass_checker_row{
+    display:flex; 
+    padding-inline-start: 1px;
+  }
+
+
+.pass_checker{
+    list-style-type: circle;
+    color: rgb(86, 204, 50);
+}
+
+
+
+li span {
+    color: black; /* text color */
+  }
+
+
+
+ul{ 
+    padding-bottom: 20px;
+    padding-inline-start: 20px;
+}
+
+
+
+
+li{
+    padding-bottom: 8px;
+    color: #0AA3AD;
+   
+    
+}
+
+
+
+.passwordShow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*flex-direction: row;
+     */
+    
+
+
+
+}
+
+.circle{
+    list-style-type: disc;
+
+}
+
+.margen{
+    padding-left: 5rem;
+}
+
+
+.iconView{
+    height: 20px;
+    width: 20px;
+}
+
+
+.iconView_placement{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
